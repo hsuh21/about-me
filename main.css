@@ -1,18 +1,18 @@
 body {
     background-color: #F6DDCC;
-    margin: 5%;
+    margin: 0;
 }
 
 .parent {
     width: 400px;
     height: 400px;
     background-color: #FCF3CF;
-    border: 2px, black;
-    border-style: solid;
-    display: block;
+    border: black solid;
+    display: inline-block;
     position: relative;
     left: 50%;
     margin-left: -400px;
+    margin-top: 5%;
 }
 
 .text {
@@ -25,4 +25,44 @@ body {
     margin-left: -175px;
     top: 50%;
     margin-top: -125px;
+}
+
+.inline {
+    background-color: #DAF7A6;
+    border: black solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+   width: 350px;
+   position: relative;
+   left: 50%;
+   margin-left: -360px;
+}
+
+.image-container {
+    width: 300px; 
+    height: 400px;
+    overflow: hidden;
+    border-radius: 45%;
+    border: black solid;
+    display: block;
+    float: right;
+    margin-top: 5%;
+    margin-right: 25%;
+    
+}
+
+.me {
+    position: relative;
+    width: 900px;
+    right: 330px;
+    bottom: 170px;
 }
