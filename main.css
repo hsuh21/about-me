@@ -1,16 +1,28 @@
 body {
     background-color: #F6DDCC;
+    margin: 5%;
 }
 
 .parent {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     background-color: #FCF3CF;
     border: 2px, black;
-    display: inline-block;
+    border-style: solid;
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.text {
+    width: 350px;
+    height: 250px;
+    color: #67aedd;
+    display: block;
     position: absolute;
-    margin: 0;
+    left: 50%;
+    margin-left: -175px;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-top: -125px;
 }
